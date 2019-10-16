@@ -1,6 +1,6 @@
 # Vigor
 
-This is an unsed theme for an abandoned project.   Use it for educational purposes.
+This is an unused theme for an abandoned project.   Use it for educational purposes.
 
 ### Requirements ###
 None but the contact section works with the [Mailchimp for WordPress plugin](https://wordpress.org/plugins/mailchimp-for-wp/).
