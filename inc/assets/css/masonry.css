@@ -1,0 +1,103 @@
+.vigor-masonry {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.vigor-masonry a img {
+    display: block;
+}
+
+.vigor-masonry figure {
+    max-height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.vigor-masonry .gallery-item {
+    max-width: 100%;
+    text-align: left;
+}
+
+.vigor-masonry .gallery-item a img,
+.vigor-masonry.hide-columns .gallery-item a:hover img {
+    opacity: 1;
+}
+
+.vigor-masonry .gallery-item a:hover img {
+    opacity: 0.5;
+}
+
+.portrait img {
+    max-height: 700px;
+    width: auto;
+}
+
+.vigor-masonry.hide-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    text-align: center;
+    display: inline-block;
+}
+
+.vigor-masonry.hide-columns figure {
+    display: none;
+}
+
+.vigor-masonry.hide-columns figure.current {
+    display: inline-block;
+    text-align: center;
+}
+
+.vigor-masonry .navigation,
+.vigor-masonry .count {
+    font-size: 0.875rem;
+    opacity: 0.6;
+}
+
+.vigor-masonry .count {
+    display: inline-block;
+}
+
+.vigor-masonry .navigation {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.vigor-masonry .navigation a {
+    text-decoration: none;
+}
+
+.vigor-masonry .navigation .previous {
+    margin-right: 10px;
+}
+
+.vigor-masonry .back {
+    margin-left: 20px;
+}
+
+.gallery-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.previous-image {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: w-resize;
+}
+
+.next-image {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: e-resize;
+}
